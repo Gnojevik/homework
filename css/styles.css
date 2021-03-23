@@ -116,29 +116,29 @@ header {
    letter-spacing: 0px;
 }
 
-article {
+.article-header {
    width: 100%;
    text-align: center;
    margin-top: 285px;
 }
 
-article p:first-child {
+.article-header p:first-child {
    font-size: 60px;
    font-weight: inherit;
    letter-spacing: 9px;
    text-transform: uppercase;
    color: white;
 }
-article p:first-child > span {
+.article-header p:first-child > span {
    font-size: 100px;
 }
 
-article p:nth-child(2) {
+.article-header p:nth-child(2) {
    color: white;
    font-size: 16px;
    margin-top: 23px;
 }
-article > button {
+.article-header > button {
    color: white;
    margin-top: 220px;
    font-size: 17px;
@@ -179,8 +179,44 @@ article > button {
    font-size: 24px;
    word-spacing: 9px;
    margin-top: 190px;
+   margin-bottom: 97px;
 }
 
 .section-img > article {
    display: flex;
+   margin: 20px 20px 0px 20px;
+}
+.section-img > article > img {
+   width: 100%;
+   padding: 0px 32px 0px 43px;
+}
+.section-img > article > p {
+   display: flex;
+   flex: 0 0 35%;
+   align-items: center;
+   text-align: center;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.section-img > article:nth-child(odd) > img {
+   order: 2;
+   padding: 0px 43px 0px 32px;
+}
+
+.subscribe {
+   display: flex;
+   justify-content: center;
+   background-color: #f3f3f3;
+}
+.subscribe-wrapper {
+   display: flex;
+   background-color: white;
+   margin: 100px;
+}
+.subscribe-wrapper > p {
+   font-size: 24px;
+}
+.subscribe-wrapper > p > span {
+   font-weight: bold;
 }
