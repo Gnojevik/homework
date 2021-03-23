@@ -1,0 +1,186 @@
+/* zero */
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+/* end zero */
+body {
+   font-family: "Open Sans Condensed", sans-serif;
+   max-width: 1618px;
+}
+
+header {
+   height: 920px;
+   margin-top: 10px;
+   background: url("../img/apples.jpg") no-repeat;
+   background-position: -180px 0;
+   background-size: cover;
+   width: 100%;
+}
+
+.top {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding-top: 55px;
+}
+
+.top h1,
+.top a {
+   color: white;
+   font-size: 18px;
+}
+
+.top h1 {
+   margin-left: 4%;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+.top a {
+   margin-right: 65px;
+   letter-spacing: 0px;
+}
+
+article {
+   width: 100%;
+   text-align: center;
+   margin-top: 285px;
+}
+
+article p:first-child {
+   font-size: 60px;
+   font-weight: inherit;
+   letter-spacing: 9px;
+   text-transform: uppercase;
+   color: white;
+}
+article p:first-child > span {
+   font-size: 100px;
+}
+
+article p:nth-child(2) {
+   color: white;
+   font-size: 16px;
+   margin-top: 23px;
+}
+article > button {
+   color: white;
+   margin-top: 220px;
+   font-size: 17px;
+   padding: 20px 100px;
+   border: 3px solid white;
+   background-color: #343638;
+}
+
+.section-text {
+   display: flex;
+}
+.section-text p {
+   width: 50%;
+   margin-top: 165px;
+   margin-bottom: 147px;
+}
+
+.section-text p:first-child {
+   font-size: 24px;
+   padding: 0px 120px 0px 60px;
+   line-height: 40px;
+}
+.section-text p:last-child {
+   padding: 0px 60px 0px 20px;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.section-img {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #f3f3f3;
+}
+
+.section-img h2 {
+   width: 100%;
+   text-align: center;
+   font-size: 24px;
+   word-spacing: 9px;
+   margin-top: 190px;
+}
+
+.section-img > article {
+   display: flex;
+}
