@@ -93,7 +93,6 @@ header {
 
 .top {
    display: flex;
-   width: 100%;
    justify-content: space-between;
    padding-top: 55px;
 }
@@ -115,7 +114,6 @@ header {
 }
 
 .article-header {
-   width: 100%;
    text-align: center;
    margin-top: 285px;
 }
@@ -187,12 +185,12 @@ header {
    margin: 20px 20px 0px 20px;
 }
 .section-img > article > img {
-   width: 100%;
+   flex-grow: 3;
    padding: 0px 32px 0px 43px;
 }
 .section-img > article > p {
    display: flex;
-   flex: 0 0 35%;
+   flex-grow: 1;
    align-items: center;
    text-align: center;
    font-size: 18px;
