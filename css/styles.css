@@ -184,9 +184,29 @@ header {
    display: flex;
    margin: 20px 20px 0px 20px;
 }
-.section-img > article > img {
+.section-img > article > .img {
+   position: relative;
    flex-grow: 3;
    padding: 0px 32px 0px 43px;
+}
+.section-img > article > .img::after {
+   content: "Some date dd/mm/year";
+   color: white;
+   position: absolute;
+   top: 260px;
+   left: 50px;
+   font-size: 20px;
+}
+.section-img > article > .img::before {
+   content: "\2661 172";
+   color: white;
+   background-color: #767676;
+   padding: 10px;
+   font-size: 20px;
+   border: solid 2px white;
+   position: absolute;
+   top: 15px;
+   right: 58px;
 }
 .section-img > article > p {
    display: flex;
@@ -197,7 +217,7 @@ header {
    line-height: 25px;
 }
 
-.section-img > article:nth-child(odd) > img {
+.section-img > article:nth-child(odd) > .img {
    order: 2;
    padding: 0px 43px 0px 32px;
 }
